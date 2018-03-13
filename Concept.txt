@@ -1,0 +1,2 @@
+In concept this should be able to be used as a library/framework to concot really simple terminal interfaces.
+It will be grid based and hopefully resizable.
