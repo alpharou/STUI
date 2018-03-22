@@ -31,6 +31,8 @@ int main(int argc, char **argv)
 //TODO: Draw changes onto the screen depending on the mode.
 int gui(int ctrl)
 {
+	//HIDE CURSOR
+	printf("\033[?25l");
 	switch (ctrl)
 	{
 		case 15: {return 15; break;} //SKIP DRAW
