@@ -4,3 +4,4 @@
 *.exe
 *.mk
 *.project
+*.o
