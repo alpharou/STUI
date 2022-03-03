@@ -5,3 +5,5 @@
 *.mk
 *.project
 *.o
+.vscode
+build

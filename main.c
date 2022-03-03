@@ -92,6 +92,8 @@ int inp()
 			buff2 = _getch();
 			switch (buff2)
 			{
+				case 75: {return 12; break;} //LEFT
+				case 77: {return 13; break;} //RIGHT
 				default: printf("inp(): KEY 0>>%i NOT MAPPED.\n", buff2); return 15; break;
 			}
 		}
